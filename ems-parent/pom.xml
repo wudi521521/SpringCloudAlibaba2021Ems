@@ -4,9 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
     <artifactId>ems-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.wudi</groupId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>ems-comms</module>
+        <module>ems-users</module>
+        <module>ems-emps</module>
+        <module>ems-files</module>
+    </modules>
     <!--全局定义springboot父项目版本号-->
     <parent>
         <groupId>org.springframework.boot</groupId>
